@@ -6,6 +6,8 @@ def decimal_to_binary(n):
     while whole>0:
         binary=str(whole%2)+binary
         whole=whole//2
+     if binary=="":         
+        binary="0" 
     binary+="."
     for i in range(8):
         fraction*=2
