@@ -6,7 +6,7 @@ if resistance <=0:
 else:
      current=voltage/resistance
      print(f"Your current is: {current}")
-     if current >=2:
+     if current >2:
         print("Fuse will Blow")
      else:
           print("Circuit is safe")
