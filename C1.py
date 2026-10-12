@@ -9,7 +9,7 @@ v=12
 r=6
 
 i=ohms_current(v,r)
-p=power_dissipation(i,v)
+p=power_dissipation(i,r)
 
 print(f"Current = {i} A")
 print(f"Power dissipation = {p} W")
